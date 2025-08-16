@@ -1,0 +1,93 @@
+.contact-section {
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.contact-me-section {
+  display: flex;
+}
+.contact-section h2 {
+  color: #d186f0;
+}
+.para {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.contact-section-box {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  margin-left: 40px;
+}
+.contact-section-box1 {
+  border: 1px solid #ccc;
+  height: 80px;
+}
+.message {
+  height: 120px;
+}
+.contact-section-box1 svg {
+  margin-top: 4px;
+  margin-left: -19px;
+  position: absolute;
+}
+.contact-section-box1 h3 {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.contact-section-box1 p {
+  padding: 5px 10px;
+  margin-left: 15px;
+  font-weight: 200;
+}
+
+.all-media h3 {
+  color: #d186f0;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-dots {
+  position: absolute;
+  left: 1%;
+  bottom: 8%;
+  height: 60px;
+  width: 60px;
+}
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 20px;
+    z-index: -1000;
+  }
+
+  .contact-me-section {
+    flex-direction: column;
+  }
+
+  .para {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-section-box {
+    margin-left: 0;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  .all-media {
+    margin-top: 20px;
+  }
+  .contact-dots {
+    height: 50px;
+    width: 50px;
+    left: 80%;
+  }
+}

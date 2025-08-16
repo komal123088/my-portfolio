@@ -1,0 +1,495 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  position: relative;
+}
+
+.hero-left {
+  max-width: 600px;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+
+.hero-left h1 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 span {
+  color: #c778dd;
+}
+
+.desc {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+.contact-btn {
+  background-color: transparent;
+  border: 1px solid #c778dd;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #c778dd;
+  color: #fff;
+}
+
+.hero-right {
+  position: absolute;
+  right: 0%;
+  top: 40px;
+  text-align: center;
+}
+
+.hero-image {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.status-box {
+  margin-top: -12px;
+  background: #1e1e2f;
+  color: white;
+  border: 1px solid #555;
+  padding: 5px 10px;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  width: 20rem;
+  gap: 6px;
+  margin-right: 3%;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #c267f2;
+}
+
+.dots {
+  position: absolute;
+  bottom: 20%;
+  right: 28%;
+}
+.logos {
+  position: absolute;
+  left: 18%;
+  top: 20%;
+  z-index: -100;
+}
+
+.quote-box {
+  margin-top: 120px;
+  margin-left: 250px;
+  border: 1px solid #555;
+  padding: 15px 30px;
+  max-width: 450px;
+  font-size: 14px;
+  position: relative;
+}
+
+.quote-box p {
+  margin-top: 10px;
+}
+
+.quote-mark {
+  font-size: 28px;
+  position: absolute;
+  top: -13%;
+  background-color: #282c33;
+  padding: 0 5px;
+}
+.quote-mark1 {
+  font-size: 28px;
+  bottom: -8%;
+  padding: 4px;
+  position: absolute;
+  height: 20px;
+  background-color: #282c33;
+}
+
+.quote-author {
+  position: absolute;
+  padding: 10px 16px;
+  bottom: -70%;
+  right: 0;
+  color: #aaa;
+  border: 1px solid #555;
+  border-top: none;
+}
+
+.rectangle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.rectangle img {
+  height: 60px;
+  width: 100px;
+}
+
+/* projects style */
+
+.project-heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.project-hdng-txt {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 50%;
+  color: #6c4aa1;
+}
+.line {
+  background: #c778dd;
+  position: absolute;
+  height: 1px;
+  width: 300px;
+  left: 35%;
+  bottom: 45%;
+}
+.project-btn a {
+  color: #fff;
+}
+.project-btn a svg {
+  position: absolute;
+  font-size: 19px;
+}
+.project-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid #abb2bf;
+  width: 335px;
+  height: 380px;
+}
+.box1 {
+  height: 400px;
+}
+.box2 {
+  height: 420px;
+}
+.boxImage {
+  width: 100%;
+}
+.boxImage img {
+  width: 100%;
+}
+.boxText {
+  color: #abb2bf;
+  font-weight: 300;
+}
+
+.boxText .p1 {
+  padding: 5px;
+
+  border-bottom: 1px solid #abb2bf;
+}
+
+.box h2 {
+  padding: 6px;
+}
+
+.box p {
+  padding: 0 5px;
+}
+.box-btn {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.box-btn button {
+  padding: 6px 15px;
+  background: transparent;
+  color: #abb2bf;
+  cursor: pointer;
+}
+.skills-section {
+  margin-top: 50px;
+  position: relative;
+}
+.skills-section h2,
+.about-me-section h2 {
+  color: #d5aaff;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+.skills-section .skill-border {
+  position: absolute;
+  height: 1px;
+  background-color: #c778dd;
+  width: 200px;
+  top: 3%;
+  left: 17%;
+}
+.skills-layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-shapes {
+  width: 40%;
+  position: relative;
+  height: 250px;
+}
+.skills-shapes .dots1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.skills-shapes .frame27 {
+  position: absolute;
+  right: 10%;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #abb2bf;
+}
+.skills-shapes .frame28 {
+  position: absolute;
+  right: 0;
+  height: 100px;
+  width: 100px;
+  bottom: -40%;
+  border: 1px solid #abb2bf;
+}
+.skills-shapes .frame30 {
+  position: absolute;
+  bottom: 10%;
+  right: 30%;
+}
+.skills-shapes .logo1 {
+  position: absolute;
+  bottom: -30%;
+}
+
+.skills-boxes {
+  display: flex;
+  width: 60%;
+  height: 350px;
+  position: relative;
+}
+
+.skill-box {
+  border: 1px solid #777;
+  padding: 10px 15px;
+}
+.one {
+  position: absolute;
+  top: 0;
+  left: 17%;
+}
+.two {
+  position: absolute;
+  right: 30%;
+}
+.three {
+  position: absolute;
+  right: 0;
+}
+.four {
+  position: absolute;
+  right: 30%;
+  top: 28%;
+}
+.five {
+  position: absolute;
+  right: 0;
+  top: 33%;
+  width: 180px;
+}
+.skill-box h4 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.skill-box p {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.about-me-section {
+  margin-top: 80px;
+  position: relative;
+}
+.about-me-section .skill-border {
+  position: absolute;
+}
+.about-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  line-height: 1.5;
+}
+
+.about-text p {
+  color: #ccc;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.about-text button {
+  background-color: #6c4aa1;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.about-text button:hover {
+  background-color: #8a62c5;
+}
+
+.about-image {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 450px;
+}
+
+.about-image img {
+  max-width: 300px;
+  position: absolute;
+  top: -10%;
+  z-index: -100;
+}
+
+.dots4 {
+  position: absolute;
+  left: 20%;
+  margin-top: 20px;
+}
+.dots5 {
+  position: absolute;
+  margin-top: 250px;
+  right: 25%;
+}
+.dots6 {
+  position: absolute;
+  right: -15%;
+  margin-top: 360px;
+}
+.contacts-section {
+  position: relative;
+}
+.contacts-section .skill-border {
+  top: 8%;
+}
+.contacts-section h2 {
+  color: #d5aaff;
+  margin-bottom: 30px;
+}
+
+.contacts-layout {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-text {
+  flex: 1;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.contact-box {
+  border: 1px solid #777;
+  padding: 15px 20px;
+  flex: 0 0 250px;
+}
+
+.contact-box h4 {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon-placeholder {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    z-index: -1000;
+  }
+  .hero-left h1 {
+    padding: 0;
+    margin-left: -85px;
+    width: 370px;
+    font-size: 30px;
+    margin-top: -20%;
+  }
+  .desc {
+    width: 250px;
+    margin-left: -80px;
+  }
+  .contact-btn {
+    display: none;
+  }
+  .hero-image {
+    margin-top: 70%;
+  }
+
+  .quote-box,
+  .project-heading,
+  .project-boxes,
+  .skills-section,
+  .about-me-section,
+  .contacts-section {
+    display: none !important;
+  }
+
+  .logos {
+    top: 40%;
+  }
+  .dots {
+    bottom: 10%;
+    left: 10%;
+  }
+  .dots img,
+  .logos img {
+    height: 80px;
+    width: 80px;
+  }
+}
