@@ -90,20 +90,6 @@ const Works = () => {
                 </div>
               </div>
             </div>
-
-            <div className="box box4" data-aos="fade-up" data-aos-delay="500">
-              <div className="boxImage" data-aos="zoom-in">
-                <img src={box5} alt="Kahoot Answers" />
-              </div>
-              <div className="boxText">
-                <p className="p1">HTMl CSS JavaScript React</p>
-                <h2>Kahoot Answers And Viewers</h2>
-                <p>Mine craft server hosting</p>
-                <div className="box-btn">
-                  <button>Live</button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 

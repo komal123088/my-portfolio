@@ -13,12 +13,7 @@
 .box3 {
   height: 380px;
 }
-.box4 {
-  position: absolute;
-  margin-left: 29%;
-  margin-top: 35.5%;
-  height: 410px;
-}
+
 .boxImage .myborder {
   border-bottom: 1px solid #ccc;
 }
