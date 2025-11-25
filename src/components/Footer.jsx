@@ -12,7 +12,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="footer section" data-aos="fade-up">
+      <div className="footer " data-aos="fade-up">
         <div className="footer-left" data-aos="fade-right" data-aos-delay="100">
           <div className="icon-placeholder"></div>
           <div>

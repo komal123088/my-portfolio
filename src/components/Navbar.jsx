@@ -3,18 +3,24 @@ import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import mylogo1 from "../assets/image/1.png";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation(); // current route
+
+  // Close menu automatically on route change
+  useEffect(() => {
+    setIsOpen(false);
+  }, [location]);
 
   useEffect(() => {
     AOS.init({ duration: 800, once: false, offset: 50 });
   }, []);
 
   return (
-    <nav className="navbar section" data-aos="fade-down">
+    <nav className="navbar "  data-aos="fade-down">
       {/* Logo */}
       <div className="logo" data-aos="zoom-in" data-aos-delay="100">
         <span>
