@@ -455,14 +455,15 @@
   }
   .hero-left h1 {
     padding: 0;
-    margin-left: -85px;
+    margin-left: -58px;
     width: 370px;
     font-size: 30px;
     margin-top: -20%;
   }
+
   .desc {
     width: 250px;
-    margin-left: -80px;
+    margin-left: -58px;
   }
   .contact-btn {
     display: none;
